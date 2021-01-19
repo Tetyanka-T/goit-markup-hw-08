@@ -170,14 +170,16 @@ body.modal-open {
     margin: 0;
     padding: 0;
     border: none;
+    width: 40px;
+    height: 40px;
     background-color: transparent;
   }
   .menu-button__icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
   }
   .menu-button .menu-button__icon-cross {
     display: none;
@@ -434,7 +436,7 @@ body.modal-open {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../image/studia/mobile/m-Header.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./../image/studia/mobile/m-Header.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 480px 400px;
@@ -443,7 +445,7 @@ body.modal-open {
 
 @media screen and (min-width: 320px) and (max-width: 767px) and (min-device-pixel-ratio: 2) and (min-width: 320px), screen and (min-width: 320px) and (max-width: 767px) and (min-resolution: 192dpi) and (min-width: 320px), screen and (min-width: 320px) and (max-width: 767px) and (min-resolution: 2dppx) and (min-width: 320px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../image/studia/mobile/m-Header@2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./../image/studia/mobile/m-Header@2x.jpg");
   }
 }
 
@@ -472,7 +474,7 @@ body.modal-open {
 @media screen and (min-width: 768px) {
   .hero-section {
     padding: 118px 188px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../image/studia/tablet/t-Header.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./../image/studia/tablet/t-Header.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 768px 400px;
@@ -481,14 +483,14 @@ body.modal-open {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../image/studia/tablet/t-Header@2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./../image/studia/tablet/t-Header@2x.jpg");
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero-section {
     padding: 200px 235px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../image/studia/desktop/d-Hero.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./../image/studia/desktop/d-Hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1600px 600px;
@@ -497,7 +499,7 @@ body.modal-open {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../image/studia/desktop/d-Hero@2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./../image/studia/desktop/d-Hero@2x.jpg");
   }
 }
 
