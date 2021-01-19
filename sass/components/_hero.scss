@@ -1,0 +1,124 @@
+.hero-section {
+  padding: 118px 43px;
+
+  text-align: center;
+  color: #ffffff;
+  font-family: var(--main-font);
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .hero-section {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../image/studia/mobile/m-Header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 480px 400px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+    screen and (min-resolution: 192dpi) and (min-width: 320px),
+    screen and (min-resolution: 2dppx) and (min-width: 320px) {
+    .hero-section {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../../image/studia/mobile/m-Header@2x.jpg");
+    }
+  }
+}
+
+.hero-title {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 360px;
+
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 26px;
+}
+
+.hero-button {
+  min-width: 136px;
+  padding: 10px 27px;
+
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.36;
+  background-color: var(--accent-text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .hero-section {
+    padding: 118px 188px;
+
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../image/studia/tablet/t-Header.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 768px 400px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+    screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .hero-section {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../../image/studia/tablet/t-Header@2x.jpg");
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-section {
+    padding: 200px 235px;
+
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../image/studia/desktop/d-Hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1600px 600px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+    screen and (min-resolution: 192dpi) and (min-width: 1200px),
+    screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    .hero-section {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../../image/studia/desktop/d-Hero@2x.jpg");
+    }
+  }
+
+  .hero-title {
+    line-height: 1.36;
+    font-size: 44px;
+    max-width: 696px;
+  }
+}
