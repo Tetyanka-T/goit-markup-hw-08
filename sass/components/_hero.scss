@@ -5,7 +5,11 @@
   color: #ffffff;
   font-family: var(--main-font);
 }
-
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .hero-section {
+    padding: 78px 43px;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .hero-section {
     background-image: linear-gradient(

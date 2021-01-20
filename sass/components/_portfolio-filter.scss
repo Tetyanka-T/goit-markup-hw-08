@@ -3,6 +3,8 @@
   flex-wrap: wrap;
   justify-content: left;
   box-shadow: none;
+
+  margin-bottom: 40px;
 }
 .button .button__item {
   margin-right: 8px;
@@ -49,6 +51,7 @@
 @media screen and (min-width: 768px) {
   .button {
     justify-content: center;
+    margin-top: 50px;
   }
   .button__item {
     margin-bottom: 0;
